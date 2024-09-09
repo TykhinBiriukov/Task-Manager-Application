@@ -1,4 +1,7 @@
-﻿namespace Task_Manager_Application
+﻿using System.Text.Json;
+using System.Threading.Tasks;
+
+namespace Task_Manager_Application
 {
     public class TaskList : ITaskList
     {
@@ -7,7 +10,7 @@
 
         public void AddTask(TaskTemplate task)
         {
-            task.Id = _taskId++;
+            task.Id = ++_taskId;
             _tasks.Add(task);
         }
 

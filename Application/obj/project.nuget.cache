@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLNjYy0F6Vk=",
+  "dgSpecHash": "jBpkvwDfBrs=",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Task Manager Application.csproj",
+  "projectFilePath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Task Manager Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Family\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Family\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

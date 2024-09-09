@@ -27,5 +27,12 @@
         {
             _taskList.RemoveTask(id);
         }
+
+        public int GetNumberOfTasks()
+        {
+            var tasks = _taskList.ViewAllTasks();
+            int numberOfTasks = tasks.Count;
+            return numberOfTasks;
+        }
     }
 }

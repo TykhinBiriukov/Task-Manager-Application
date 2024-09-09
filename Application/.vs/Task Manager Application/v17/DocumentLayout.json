@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\itasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:itasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\tasktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:tasktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|d:\\programming\\projects\\c#\\task manager application\\application\\itasktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25AF87-5A22-4083-87C2-AEF82C64A244}|Task Manager Application.csproj|solutionrelative:itasktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEgAAAAALTMzM7MSwD4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:32.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskService.cs",
+              "RelativeToolTip": "TaskService.cs",
+              "ViewState": "AQIAAAIAAABozMzMzMw3wBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:52:04.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Builder.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Builder.cs",
+              "RelativeDocumentMoniker": "Builder.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Builder.cs",
+              "RelativeToolTip": "Builder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:26.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskList.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskList.cs",
+              "RelativeDocumentMoniker": "TaskList.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskList.cs",
+              "RelativeToolTip": "TaskList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:33.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskTemplate.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskTemplate.cs",
+              "RelativeDocumentMoniker": "TaskTemplate.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\TaskTemplate.cs",
+              "RelativeToolTip": "TaskTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:34.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskService.cs",
+              "RelativeDocumentMoniker": "ITaskService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskService.cs",
+              "RelativeToolTip": "ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:30.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBuilder.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\IBuilder.cs",
+              "RelativeDocumentMoniker": "IBuilder.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\IBuilder.cs",
+              "RelativeToolTip": "IBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:29.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITaskList.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskList.cs",
+              "RelativeDocumentMoniker": "ITaskList.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskList.cs",
+              "RelativeToolTip": "ITaskList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:30.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITaskTemplate.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskTemplate.cs",
+              "RelativeDocumentMoniker": "ITaskTemplate.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\ITaskTemplate.cs",
+              "RelativeToolTip": "ITaskTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:19:31.741Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

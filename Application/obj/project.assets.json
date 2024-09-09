@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Task Manager Application.csproj",
+      "projectUniqueName": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Task Manager Application.csproj",
       "projectName": "Task Manager Application",
-      "projectPath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Task Manager Application.csproj",
+      "projectPath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\Task Manager Application.csproj",
       "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\obj\\",
+      "outputPath": "D:\\Programming\\Projects\\C#\\Task Manager Application\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Family\\AppData\\Roaming\\NuGet\\NuGet.Config",

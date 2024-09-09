@@ -6,5 +6,6 @@
         void SetDescription(string description);
         void SetDueDate(DateTime dueDate);
         TaskTemplate BuildTask();
+        void Reset();
     }
 }

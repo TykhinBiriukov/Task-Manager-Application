@@ -17,3 +17,22 @@ D:\Programming\Projects\C#\Task Manager Application\bin\Debug\net8.0\Microsoft.E
 D:\Programming\Projects\C#\Task Manager Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Programming\Projects\C#\Task Manager Application\obj\Debug\net8.0\Task Manager Application.csproj.AssemblyReference.cache
 D:\Programming\Projects\C#\Task Manager Application\obj\Debug\net8.0\Task Man.7D713D62.Up2Date
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Task Manager Application.exe
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Task Manager Application.dll
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.csproj.AssemblyReference.cache
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.AssemblyInfoInputs.cache
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.AssemblyInfo.cs
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.sourcelink.json
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Man.7D713D62.Up2Date
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.dll
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\refint\Task Manager Application.dll
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.pdb
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Task Manager Application.deps.json
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Task Manager Application.runtimeconfig.json
+D:\Programming\Projects\C#\Task Manager Application\Application\bin\Debug\net8.0\Task Manager Application.pdb
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\Task Manager Application.genruntimeconfig.cache
+D:\Programming\Projects\C#\Task Manager Application\Application\obj\Debug\net8.0\ref\Task Manager Application.dll
