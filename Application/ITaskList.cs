@@ -5,5 +5,7 @@
         void AddTask(TaskTemplate task);
         List<TaskTemplate> ViewAllTasks();
         void RemoveTask(int id);
+        void SaveTasks();
+        List<TaskTemplate> LoadTasks();
     }
 }

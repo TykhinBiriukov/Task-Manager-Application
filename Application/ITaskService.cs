@@ -6,5 +6,7 @@
         List<TaskTemplate> ViewTasks();
         void DeleteTask(int id);
         int GetNumberOfTasks();
+        void TaskSaver();
+        List<TaskTemplate> TaskLoader();
     }
 }

@@ -5,12 +5,10 @@ namespace Task_Manager_Application
 {
     public class TaskList : ITaskList
     {
-        private readonly List<TaskTemplate> _tasks = new List<TaskTemplate>();
-        private int _taskId = 0;
+        private List<TaskTemplate> _tasks = new List<TaskTemplate>();
 
         public void AddTask(TaskTemplate task)
         {
-            task.Id = ++_taskId;
             _tasks.Add(task);
         }
 
@@ -22,6 +20,21 @@ namespace Task_Manager_Application
         public void RemoveTask(int id)
         {
             _tasks.RemoveAt(id - 1);
+        }
+
+        public void SaveTasks()
+        {
+            string fileName = "TaskList.json";
+            string result = JsonSerializer.Serialize(_tasks);
+            File.WriteAllText(fileName, result);
+        }
+
+        public List<TaskTemplate> LoadTasks()
+        {
+            string fileName = "TaskList.json";
+            string jsonString = File.ReadAllText(fileName);
+            _tasks = JsonSerializer.Deserialize<List<TaskTemplate>>(jsonString)!;
+            return _tasks;
         }
     }
 }

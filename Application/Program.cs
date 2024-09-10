@@ -15,6 +15,13 @@ var serviceBuilder = serviceCollection.BuildServiceProvider();
 var taskService = serviceBuilder.GetService<ITaskService>();
 
 
+try
+{
+    taskService!.TaskLoader();
+}
+catch { }
+
+
 while (true)
 {
     Console.WriteLine("\nMenu:" +
@@ -23,8 +30,16 @@ while (true)
         "\n3. Remove task" +
         "\n4. End & Save tasks");
     Console.Write("\nPlease choose your action: ");
-    int userMenuActionInput = Convert.ToInt32(Console.ReadLine());
-
+    int userMenuActionInput;
+    try
+    {
+        userMenuActionInput = Convert.ToInt32(Console.ReadLine());
+    }
+    catch
+    {
+        userMenuActionInput = 5;
+    }
+    
     switch (userMenuActionInput)
     {
         case 1:
@@ -40,6 +55,7 @@ while (true)
             break;
 
         case 4:
+            taskService!.TaskSaver();
             return;
 
         default:
@@ -62,7 +78,6 @@ while (true)
 
             Console.Write("Enter due date (dd-mm-yyyy or similar): ");
             DateTime userTaskDueDateInput = GetValidDueDateInput();
-
 
 
             taskService.CreateTask(builder =>
@@ -110,32 +125,27 @@ while (true)
     {
         List<TaskTemplate> tasks = taskService.ViewTasks();
 
-        if (taskService.GetNumberOfTasks() == 0)
+        if (CheckIfTaskNuymberIs0(taskService))
         {
-            Console.WriteLine("There are no tasks to show" +
-                "\nPress enter to continue ");
-            Console.ReadLine();
             return;
         }
 
+        int id = 1;
         foreach (TaskTemplate task in tasks)
         {
-            Console.WriteLine($"Index: {task.Id}" +
+            Console.WriteLine($"Task id: {id++}" +
                 $"\nName: {task.Name}" +
                 $"\nDescription: {task.Description}" +
                 $"\nDue Date: {task.DueDate}" +
-                $"---------------------");
+                $"\n---------------------");
         }
     }
 
 
     static void Case3RemoveTask(ITaskService taskService)
     {
-        if (taskService.GetNumberOfTasks() == 0)
+        if (CheckIfTaskNuymberIs0(taskService))
         {
-            Console.WriteLine("There are no tasks to remove" +
-                "\nPress enter to continue ");
-            Console.ReadLine();
             return;
         }
 
@@ -149,12 +159,32 @@ while (true)
         int numberOfTasks = taskService.GetNumberOfTasks();
         while (true)
         {
-            int id = Convert.ToInt32(Console.ReadLine());
-            if (id > 0 || id < numberOfTasks)
+            try
             {
-                return id;
+                int id = Convert.ToInt32(Console.ReadLine());
+                if (id > 0 && id < numberOfTasks)
+                {
+                    return id;
+                }
+                Console.Write($"Please enter number from 1 to {numberOfTasks}: ");
             }
-            Console.WriteLine($"Please enter number from one to {numberOfTasks}");
+            catch
+            {
+                Console.Write($"Please enter number from 1 to {numberOfTasks}: ");
+            }
         }
+    }
+
+
+    static bool CheckIfTaskNuymberIs0(ITaskService taskService)
+    {
+        if (taskService.GetNumberOfTasks() == 0)
+        {
+            Console.Write("There are no tasks in the list" +
+                "\nPress enter to continue ");
+            Console.ReadLine();
+            return true;
+        }
+        return false;
     }
 }

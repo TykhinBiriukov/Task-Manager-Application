@@ -34,5 +34,15 @@
             int numberOfTasks = tasks.Count;
             return numberOfTasks;
         }
+
+        public void TaskSaver()
+        {
+            _taskList.SaveTasks();
+        }
+
+        public List<TaskTemplate> TaskLoader()
+        {
+            return _taskList.LoadTasks();
+        }
     }
 }
